@@ -4,8 +4,8 @@
 
 # Site
 title: 张小圈要BH
-subtitle: '记录生活感悟的树洞'
-description: '生命在于体验'
+subtitle: ''
+description: ''
 keywords:
 author: 张小圈
 language: zh-CN
@@ -102,4 +102,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/betty1126/betty1126.github.io
+  branch: gh-pages
