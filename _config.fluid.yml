@@ -506,7 +506,7 @@ index:
   # 自动截取文章摘要
   # Auto extract post
   auto_excerpt:
-    enable: true
+    enable: false
 
   # 打开文章的标签方式
   # The browser tag to open the post
@@ -728,7 +728,7 @@ post:
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus
-    type: disqus
+    type: valine
 
 
 #---------------------------
@@ -755,12 +755,12 @@ utterances:
 # Based on third-party service
 # See: https://disqus.com
 disqus:
-  shortname:
+  shortname: betty1126
   # 以下为 Disqusjs 支持, 国内用户如果想使用 Disqus 建议配合使用
   # The following are Disqusjs configurations, please ignore if DisqusJS is not required
   # See: https://github.com/SukkaW/DisqusJS
-  disqusjs: false
-  apikey:
+  disqusjs: true
+  apikey: OvlwqLo48aMyOrgVn9NGsy3cbrp08BgTqSKmEgKunJ4anyeFZOFkRTESpJ0zNVLV
 
 # Gitalk
 # 基于 GitHub Issues
@@ -789,10 +789,10 @@ gitalk:
 # Based on LeanCloud
 # See: https://valine.js.org/
 valine:
-  appId:
-  appKey:
+  appId: 00SbgTNDXHxKLuwgwuLt58pH-MdYXbMMI
+  appKey: Vf8vsRhx1lSGJFzZ6fkEA9i7
   path: window.location.pathname
-  placeholder:
+  placeholder: 留下你的足迹o(*￣▽￣*)
   avatar: 'retro'
   meta: ['nick', 'mail', 'link']
   requiredFields: []
@@ -1032,7 +1032,7 @@ links:
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus
-    type: disqus
+    type: valine
 
 
 #---------------------------
