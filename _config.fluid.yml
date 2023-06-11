@@ -792,7 +792,7 @@ valine:
   appId: 00SbgTNDXHxKLuwgwuLt58pH-MdYXbMMI
   appKey: Vf8vsRhx1lSGJFzZ6fkEA9i7
   path: window.location.pathname
-  placeholder: 留下你的足迹o(*￣▽￣*)
+  placeholder: 交流一下嘛o(*￣▽￣*)
   avatar: 'retro'
   meta: ['nick', 'mail', 'link']
   requiredFields: []
@@ -800,7 +800,7 @@ valine:
   lang: 'zh-CN'
   highlight: false
   recordIP: false
-  serverURLs: ''
+  serverURLs: 'https://app-router.com'
   emojiCDN:
   emojiMaps:
   enableQQ: false
