@@ -800,7 +800,7 @@ valine:
   lang: 'zh-CN'
   highlight: false
   recordIP: false
-  serverURLs: 'https://app-router.com'
+  serverURLs: 'https://00sbgtnd.api.lncldglobal.com'
   emojiCDN:
   emojiMaps:
   enableQQ: false
